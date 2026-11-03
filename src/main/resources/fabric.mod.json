@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "skyboxchanger",
+  "version": "${version}",
+  "name": "SkyBox Changer",
+  "description": "Client-side skybox, weather, star and sky-text customiser with an AI prompt box. Only you can see it.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.skyboxchanger.SkyBoxChanger"]
+  },
+  "mixins": ["skyboxchanger.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": "~1.21.8",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
